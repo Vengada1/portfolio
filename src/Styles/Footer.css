@@ -1,0 +1,17 @@
+.icon{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+footer{
+    background-color: #04264b;
+    color: white;
+}
+
+.build{
+    background-color: #02203c;
+}
+
+footer section a :hover{
+    color: rgb(98, 25, 20);
+}

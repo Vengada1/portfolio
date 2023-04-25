@@ -1,0 +1,32 @@
+
+.name {
+    color: #20908a;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-weight: 600;
+    margin-left: 40px;
+  }
+  
+  .navbar {
+      background-color: #0a345e;
+      color: white;
+    }
+    
+    .navbar a {
+      color: rgb(225, 200, 200);
+    }
+  
+    .align-right{
+      float: right;
+      
+    }
+    
+    #navbarNavAltMarkup  {
+      justify-content:right;
+    }
+    
+    #navbarNavAltMarkup a {
+      padding-left: 2rem;
+      font-size: 1.2rem;
+    }
+    

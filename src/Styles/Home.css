@@ -1,0 +1,91 @@
+.home{
+    width: 100%;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #580cf0;
+}
+
+.about{
+    width: auto;
+    height: calc(80vh - 50px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #86cde377;
+    color: #f7f1f1;
+}
+
+.aboutLeft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutLeft img {
+    width: 300px; 
+    height: 350px; 
+    border-radius: 7%; 
+    margin-left: 160px;
+    object-fit: cover;
+    /* object-position: -50px; */
+}
+
+.btn{
+    padding: 5px 15px;
+    color: #14b4ac;
+    margin: 5px 5px;
+    font-size: 17px;
+    background-color: #0f172a;
+    border: none;
+    border: 2px solid #20908a;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.profile-info{
+    text-align: left;
+    padding-left: 150px;
+    margin:15px;
+    margin-top: 50px;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+.profile-info>p{
+    color: #14b4ac;
+    font-size: 20px;
+    font-family: "Times New Roman", Times, sans-serif;
+}
+.profile-info>h1{
+    font-size: 60px;
+    font-family: "Times New Roman", Times, sans-serif;
+    color: #ffffff;
+    letter-spacing: 8px;
+    padding-left: 0px;
+    padding-bottom: 10px;
+    margin: 0%;
+}
+.profile-info>h5{
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+    /* font-style: italic; */
+    color: #dfdfdf;
+    margin: 0%;
+    width: 750px;
+}
+
+.role{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    color: #070707;
+    font-family: "Times New Roman", Times, sans-serif;
+}
+.para{
+    text-align: justify;
+    text-justify: inter-word;
+    width: 700px;
+    height: 300px; 
+    margin: 0 left;
+    overflow: auto; 
+}
